@@ -98,11 +98,13 @@ Membuat Bean
 * Method tersebut perlu kita tambahkan annotation @Bean, untuk menandakan bahwa itu adalah bean
 * Secara otomatis Spring akan mengeksekusi method tersebut, dan return value nya akan dijadikan object bean secara otomatis, dan disimpan di container IoC
 * Kode : Membuat Bean
+![Img 4](image/4.PNG)
  
 ### Mengakses Bean
 * Setelah kita membuat bean, secara otomatis semua object akan di-manage oleh Application Context
 * Untuk mengakses bean, kita bisa menggunakan method getBean milik Application Context
 * Kode : Mengakses Bean
+![Img 5](image/5.PNG)
  
  
 ### Duplicate Bean
@@ -110,8 +112,10 @@ Membuat Bean
 * Namun perlu diperhatikan, jika kita membuat bean dengan tipe data yang sama, maka kita harus menggunakan nama bean yang berbeda
 * Selain itu, saat kita mengakses bean nya, kita wajib menyebutkan nama bean nya, karena jika tidak, Spring akan bingung harus mengakses bean yang mana
 * Kode : Duplicate Bean
+![Img 6](image/6.PNG)
  
 * Kode : Mengakses Duplicate Bean
+![Img 7](image/7.PNG)
  
  
 ### Primary Bean
@@ -119,9 +123,10 @@ Membuat Bean
 * Dengan memilih salah satunya menjadi primary, secara otomatis jika kita mengakses bean tanpa menyebutkan nama bean nya, secara otomatis primary nya yang akan dipilih
 * Untuk memilih primary bean, kita bisa tambahkan annotaiton @Primary
 * Kode : Primary Bean
- 
+ ![Img 8](image/8.PNG)
+
 * Kode : Mengakses Primary Bean
- 
+ ![Img 9](image/9.PNG)
  
 ### Mengubah Nama Bean
 * Secara default, nama bean diambil dari nama method
@@ -130,8 +135,10 @@ Membuat Bean
 * Jika kita ingin mengubah nama bean, kita bisa menggunakan method value() milik annotation 
 @Bean
 * Kode : Mengubah Nama Bean
+![Img 10](image/10.PNG)
  
 * Kode : Mengakses Bean
+![Img 11](image/11.PNG)
  
  
 ### Dependency Injection
