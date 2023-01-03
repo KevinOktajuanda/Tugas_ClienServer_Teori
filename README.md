@@ -112,10 +112,10 @@ Membuat Bean
 * Namun perlu diperhatikan, jika kita membuat bean dengan tipe data yang sama, maka kita harus menggunakan nama bean yang berbeda
 * Selain itu, saat kita mengakses bean nya, kita wajib menyebutkan nama bean nya, karena jika tidak, Spring akan bingung harus mengakses bean yang mana
 * Kode : Duplicate Bean
-![Img 6](image/6.PNG)
+![Img 1](image/1.PNG)
  
 * Kode : Mengakses Duplicate Bean
-![Img 7](image/7.PNG)
+![Img 2](image/2.PNG)
  
  
 ### Primary Bean
