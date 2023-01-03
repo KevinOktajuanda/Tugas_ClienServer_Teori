@@ -73,6 +73,7 @@ Membuat Application Context
 * Selanjutnya, setelah membuat Class Configuration, kita bisa menggunakan class AnnotationConfigApplicationContext untuk membuat Application Context
 * [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/AnnotationConfigApplicationContext.html] 
 * Kode : Membuat Application Context
+![Img 2](image/2.PNG)
  
  
  
@@ -85,6 +86,7 @@ Membuat Singleton di Java
 * Selanjutnya constructor nya dibuat private, agar tidak bisa diakses dari luar
 * Sehingga user terpaksa menggunakan method static tersebut ketika ingin membuat object nya
 * Kode : Singleton Class
+![Img 3](image/3.PNG)
  
  
 ### Bean
