@@ -136,9 +136,10 @@ Membuat Bean
 @Bean
 * Kode : Mengubah Nama Bean
 ![Img 10](image/10.PNG)
- 
+
 * Kode : Mengakses Bean
 ![Img 11](image/11.PNG)
+
  
  
 ### Dependency Injection
