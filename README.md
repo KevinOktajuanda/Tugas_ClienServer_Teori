@@ -100,12 +100,26 @@ Membuat Bean
 * Secara otomatis Spring akan mengeksekusi method tersebut, dan return value nya akan dijadikan object bean secara otomatis, dan disimpan di container IoC
 * Kode : Membuat Bean
 ![Img 4](image/been1.PNG)
+
+
+
+
+
+
+
  
 ### Mengakses Bean
 * Setelah kita membuat bean, secara otomatis semua object akan di-manage oleh Application Context
 * Untuk mengakses bean, kita bisa menggunakan method getBean milik Application Context
 * Kode : Mengakses Bean
 ![Img 5](image/been2.PNG)
+
+
+
+
+
+
+
  
  
 ### Duplicate Bean
@@ -114,6 +128,14 @@ Membuat Bean
 * Selain itu, saat kita mengakses bean nya, kita wajib menyebutkan nama bean nya, karena jika tidak, Spring akan bingung harus mengakses bean yang mana
 * Kode : Duplicate Bean
 ![Img 6](image/duplicatbeen1.PNG)
+
+
+
+
+
+
+
+
  
 * Kode : Mengakses Duplicate Bean
 ![Img 7](image/duplicatbeen2.PNG)
