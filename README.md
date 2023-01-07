@@ -67,13 +67,13 @@ Configuration
 * Configuration Class adalah sebuah class yang terdapat annotation @Configuration pada class tersebut
 
 * Kode : HelloWorldConfiguration
-![Img 1](image/1.PNG)
+![Img 1](image/helloworld1.PNG)
  
 Membuat Application Context
 * Selanjutnya, setelah membuat Class Configuration, kita bisa menggunakan class AnnotationConfigApplicationContext untuk membuat Application Context
 * [https://docs.spring.io/spring-framework/docs/current/javadoc-api/org/springframework/context/annotation/AnnotationConfigApplicationContext.html] 
 * Kode : Membuat Application Context
-![Img 2](image/2.PNG)
+![Img 2](image/applicationcontext.PNG)
  
  
  
@@ -86,7 +86,8 @@ Membuat Singleton di Java
 * Selanjutnya constructor nya dibuat private, agar tidak bisa diakses dari luar
 * Sehingga user terpaksa menggunakan method static tersebut ketika ingin membuat object nya
 * Kode : Singleton Class
-![Img 3](image/3.PNG)
+![Img 3](image/database1.PNG)
+![Img 3](image/database2.PNG)
  
  
 ### Bean
@@ -98,13 +99,13 @@ Membuat Bean
 * Method tersebut perlu kita tambahkan annotation @Bean, untuk menandakan bahwa itu adalah bean
 * Secara otomatis Spring akan mengeksekusi method tersebut, dan return value nya akan dijadikan object bean secara otomatis, dan disimpan di container IoC
 * Kode : Membuat Bean
-![Img 4](image/4.PNG)
+![Img 4](image/been1.PNG)
  
 ### Mengakses Bean
 * Setelah kita membuat bean, secara otomatis semua object akan di-manage oleh Application Context
 * Untuk mengakses bean, kita bisa menggunakan method getBean milik Application Context
 * Kode : Mengakses Bean
-![Img 5](image/5.PNG)
+![Img 5](image/been2.PNG)
  
  
 ### Duplicate Bean
@@ -112,10 +113,10 @@ Membuat Bean
 * Namun perlu diperhatikan, jika kita membuat bean dengan tipe data yang sama, maka kita harus menggunakan nama bean yang berbeda
 * Selain itu, saat kita mengakses bean nya, kita wajib menyebutkan nama bean nya, karena jika tidak, Spring akan bingung harus mengakses bean yang mana
 * Kode : Duplicate Bean
-![Img 6](image/6.PNG)
+![Img 6](image/duplicatbeen1.PNG)
  
 * Kode : Mengakses Duplicate Bean
-![Img 7](image/7.PNG)
+![Img 7](image/duplicatbeen2.PNG)
  
  
 ### Primary Bean
